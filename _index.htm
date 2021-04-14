@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-80350114-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-80350114-2');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Distribute and monetize your games easily with PatchKit’s white-label end-to-end solution.">
+    <meta name="author" content="Upsoft">
+    <!-- Add Your favicon here -->
+    <link rel="icon" href="img/favicon.png">
+
+    <title>PatchKit - Distribute Your Games Independently</title>
+
+    <meta property="og:title" content="PatchKit - Distribute Your Games Independently">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://patchkit.net/">
+    
+        <meta property="og:image" content="https://patchkit.net/img/og_image.jpg">
+    
+    <meta property="og:description" content="Distribute and monetize your games easily with PatchKit’s white-label end-to-end solution.">
+    <meta property="og:site_name" content="PatchKit">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Animation CSS -->
+    <link href="/css/animate.min.css" rel="stylesheet">
+
+    <link href="/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="/css/jquery.nouislider.css" rel="stylesheet">
+    <link href="/css/switchery.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- lightbox https://sorgalla.com/lity/ -->
+    <script src="/js/lity.js"></script>
+    <link href="/css/lity.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="/css/style.css" rel="stylesheet">
+    
+
+
+    
+        
+            <link href="/css/style_submain.css" rel="stylesheet">
+        
+            <link href="/css/style_for_index.css" rel="stylesheet">
+        
+            <link href="/css/style_for_include_trusted_by.css" rel="stylesheet">
+        
+            <link href="/css/components.css" rel="stylesheet">
+        
+    
+
+    
+
+    <!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
+
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+</head>
+<body id="page-top">
+
+    <div class="navbar-wrapper">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/" title="Main Page">
+                        <img src="/img/patchkit_logo_black.png" alt="PatchKit Logo">
+                    </a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li >
+  	<a href="https://patchkit.net/blog/" title="Blog">Blog</a></li>
+<li >
+  	<a href="/features.html" title="Features">Features</a></li>
+<li >
+  	<a href="/pricing.html" title="Pricing">Pricing</a></li>
+<li >
+  	<a href="/clients.html" title="Clients">Clients</a></li>
+<li >
+  	<a href="/demo.html" title="Demo">Demo</a></li>
+<li>
+  	<a href="http://docs.patchkit.net" title="Support">Support</a></li>
+<li>
+	<div class="header_signup_in_btn d-inline-block">
+		<a href="https://panel.patchkit.net/users/login_form" title="Log In" id="log-in">Log In</a>
+		<a href="https://panel.patchkit.net/" title="Log In" id="access-panel" style="display: none;">Access Panel</a>
+	</div>
+</li>
+
+<script>
+	$(document).ready(() => {
+		$(document).on("patchkit:account-info", (event, info) => {
+			if (info.user.username) {
+				$("#log-in").hide()
+				$("#access-panel").show()
+			}
+		});
+	});
+</script>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-caption blank">
+
+                        <h1>Distribute your games independently</h1>
+                        <h2 class="subtitle">Distribute and monetize your games easily with PatchKit’s white-label end-to-end solution.</h2>
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <form action="https://panel.patchkit.net/users/register" method="get">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control" placeholder="Email Address" name="email">
+                                        <span class="input-group-btn">
+                                            <button type="submit" class="btn btn-primary" type="button" onclick="">
+                                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                Try for Free
+                                            </button>
+                                        </span>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Set background for slide in css -->
+                <div class="header-back one"></div>
+
+            </div>
+        </div>
+        
+    </div>
+
+
+
+<section class="trusted-by">
+    <div class="text-center">
+        <ul>
+            <li>
+                <div style="display: table; width: 100%;">
+                    <div class="cell-middle">
+                        <span class="trusted-text">Trusted By:</span>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <a href="https://www.bossastudios.com" title="Bossa Studios Homepage">
+                    <div class="cell-bottom">
+                        <img src="/img/clients/bossa_gr.png" alt="Bossa Studios UK">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tinybuild.com/" title="tinyBuild Homepage">
+                    <div class="cell-bottom">
+                        <img src="/img/clients/tinyBuild_gr.png" alt="tinyBuild">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://lastepochgame.com" title="Last Epoch Game Homepage">
+                    <div class="cell-bottom">
+                        <img src="/img/clients/eleventh_hour_games_gr.png" alt="Eleventh Hour Games">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="http://visionaryrealms.com" title="Visionary Realms Homepage">
+                    <div class="cell-bottom">
+                        <img src="/img/clients/visionary_realms_gr.png" alt="Visionary Realms">
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.solidclouds.com" title="Solid Clouds Homepage">
+                    <div class="cell-bottom">
+                        <img src="/img/clients/solidclouds.png" alt="Solidclouds">
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section class="dark with-space">
+    <div class="container">
+        <div class="row feature">
+            <div class="col-md-6 col-md-push-6 narrow-text-75">
+                <div class="navy-line navy-line-left"></div>
+                <h2>Build your unique Launcher</h2>
+                <p>
+                    Engage your players on Windows, OSX, and Linux with a high-quality, customizable launcher. It's based on the Chromium web engine, so you can use any modern web technology on the market. Comes with built-in user behavior analytics and allows multiple games in a single app.
+                </p>
+                <p class="text-right call-to-action">
+                    <a href="/launcher.html" class="btn btn-default">Check The Launcher <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" title="Launcher"></a>
+                </p>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <!-- <video autoplay loop playsinline>
+                    <source src="video/cartel_tycoon_1.mp4" type="video/mp4">
+                </video> -->
+                
+                <picture>
+                    <source type="image/webp" srcset="/img/cartel_tycoon_launcher.webp">
+                    <source type="image/jpeg" srcset="/img/cartel_tycoon_launcher.jpg">
+                    <img src="/img/cartel_tycoon_launcher.jpg" alt="Cartel Tycoon Game Launcher" class="shadow-5">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container with-space">
+    <div class="row feature">
+        <div class="col-md-6 narrow-text-75" id="save-time-text">
+            <div class="navy-line navy-line-left"></div>
+            <h2>Save time with automated content distribution</h2>
+            <p>
+                Getting started with PatchKit is easy. Simply zip your game files, upload it via Dashboard and let PatchKit do all the rest.
+            </p>
+            <p class="call-to-action">
+                <a href="/panel.html" class="btn btn-default" title="Explore The Panel">Explore The Panel <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></a>
+            </p>
+
+        </div>
+        <div class="col-md-6">
+            <picture>
+                <source type="image/webp" srcset="/img/mmo/automation.webp">
+                <source type="image/jpeg" srcset="/img/mmo/automation.png">
+                <img src="/img/mmo/automation.png" alt="PatchKit Panel Automation">
+            </picture>
+        </div>
+    </div>
+</section>
+
+<section class="dark with-space">
+    <div class="container">
+        <div class="row feature">
+            <div class="col-md-6 col-md-push-6 narrow-text-75" id="sell-games-text">
+                <div class="navy-line navy-line-left"></div>
+                <h2>Sell games globally</h2>
+                <p>
+                    Enable the payment gateway and receive payments from all over the world with minimal commission. We integrate with any payment provider on the market.
+                </p>
+                <div class="call-to-action">
+                    <a href="http://docs.patchkit.net/contact.html" class="btn btn-default" title="Ask for the Details">Ask for the Details <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></a>
+                </div>
+            </div>
+            <div class="col-md-6 col-md-pull-6">
+                <picture>
+                    <source type="image/webp" srcset="/img/patchkit_card2.webp">
+                    <source type="image/jpeg" srcset="/img/patchkit_card2.png">
+                    <img src="/img/patchkit_card2.png" alt="Payments">
+                </picture>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container with-space">
+    <div class="row feature">
+        <div class="col-md-6 narrow-text-75">
+            <div class="navy-line navy-line-left"></div>
+            <h2>Simple Pricing</h2>
+            <p>
+                Pay only for what you use. Plan your expenses with easy and understandable pricing. Don't risk and try PatchKit for free for 30 days!
+            </p>
+            
+            <div class="call-to-action">
+                <a href="/pricing.html" class="btn btn-default" title="Pricing">Compare Plans <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></a>
+            </div>
+
+        </div>
+        <div class="col-md-6 payg-rates narrow-text-75">
+            <p class="payg-rates-primary">
+                <span>$0.039</span> / GiB in Europe &amp; USA
+            </p>
+            <p>
+                <span>$0.06</span> / GiB in Asia &amp; Oceania
+            </p>
+            <p>
+                <span>$0.09</span> / GiB in South America &amp; Africa
+            </p>
+            <p class="payg-rates-additional-charges">
+                Price of base account. Additional non-standard features may be charged separately.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="evaluate" class="evaluate dark-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Evaluate for free for 30 days!</h2>
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 col-md-8">
+
+                <p>
+                    The PatchKit platform delivers your game to the players, and let you focus on the development.
+                </p>
+
+                <form action="https://panel.patchkit.net/users/register" method="get">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Email Address" name="email">
+                        <span class="input-group-btn">
+                            <button type="submit" class="btn btn-primary" type="button" onclick="">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                Try For Free
+                            </button>
+                        </span>
+                    </div>
+                </form>
+
+                <p class="easy-setup">
+                    Easy set-up. No credit card required.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="footer" class="gray-section footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-8 m-t-lg m-b-lg">
+                <h3>Sitemap</h3>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <ul class="no-bullets">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="https://panel.patchkit.net/">Panel (sign in)</a></li>
+                            <li><a href="/pricing.html">Pricing</a></li>
+                            <li><a href="/launcher.html">Launcher Overview</a></li>
+                            <li><a href="/panel.html">Panel Overview</a></li>
+                            <li><a href="/faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <ul class="no-bullets">
+                            <li><a href="/features.html">Features</a></li>
+                            <li><a href="/clients.html">Clients</a></li>
+                            <li><a href="/demo.html">Demo</a></li>
+                            <li><a href="/team.html">Team</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                            <li><a href="http://docs.patchkit.net">Support</a></li>
+                            <li><a href="https://status.patchkit.net">Status</a></li>
+                            <li><a href="/privacy.html">Privacy</a></li>
+                            <li><a href="https://panel.patchkit.net/terms">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-4 m-t-lg m-b-lg text-right-md">
+                <h3>Contact</h3>
+                <p>
+                    <a href="mailto:contact@patchkit.net">contact@patchkit.net</a>
+                </p>
+                <p>
+                    Upsoft sp. z o.o.<br>
+                    Rynek 36/37<br>
+                    50-102 Wrocław<br>
+                    Poland
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <ul class="list-inline social-icon">
+                    <li><a href="https://twitter.com/PatchKitNet"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/patchkitnet/"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li><a href="https://discord.gg/Z5ED24m"><i class="fab fa-discord"></i></a>
+                    </li>
+                </ul>
+
+                <p><strong>Copyright © 2015 - 2021 Upsoft<br>All Rights Reserved.</strong><br/></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div id="gdpr-question">
+    <div id="gdpr-close">
+        <a href="#" onclick="pk_gdpr.setAnswered(true);pk_gdpr.setAllowedToTrack(true);$('#gdpr-question').hide();"><li class='fa fa-times'></li></a>
+    </div>
+    <div style="padding: 10px">
+    <div class="text-center">
+        <p>
+            We would like to share your browsing habits on our site with <a href="https://google.com/" target="_blank" rel="nofollow">Google</a>, <a href="https://heapanalytics.com" target="_blank" rel="nofollow">Heap Analytics</a>, and <a href="https://mouseflow.com/" target="_blank" rel="nofollow">MouseFlow</a> to better undestand how to improve our services.
+        </p>
+        <p>
+            These data will be deleted after 26 months. You can withdraw permission at any time in Privacy section settings.
+        </p>
+    </div>
+    
+    
+        <div class="pull-right">
+            <a class="btn btn-primary" onclick="pk_gdpr.setAnswered(true);pk_gdpr.setAllowedToTrack(true);$.colorbox.close();$('#gdpr-question').hide();">I Agree</a>
+        </div>
+        
+        <div class="pull-left">
+        <a class="btn btn-default-outline" onclick="pk_gdpr.setAnswered(true);pk_gdpr.setAllowedToTrack(true);location.href='/privacy.html';">More Information</a>
+        </div>
+    
+
+    
+</div>
+</div>
+
+<script src="/js/modernizr-custom.js"></script>
+<script src="/js/pk_gdpr.js"></script>
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/jquery.colorbox-min.js"></script>
+<script src="/js/jquery.nouislider.min.js"></script>
+<script src="/js/pace.min.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/classie.js"></script>
+<script src="/js/cbpAnimatedHeader.js"></script>
+<script src="/js/wow.min.js"></script>
+<script src="/js/inspinia.js"></script>
+<script src="/js/switchery.js"></script>
+<script src="/js/alephbet.min.js"></script>
+<script src="/js/experiments.js"></script>
+<!-- <script src="https://wchat.freshchat.com/js/widget.js"></script> -->
+
+
+
+<!-- Custom scripts -->
+<script src="/js/try_it_now.js"></script>
+<script src="/js/privacy.js"></script>
+
+<link href="/css/colorbox.css" rel="stylesheet">
+
+
+<script>
+    $(document).ready(function() {
+        if (!pk_gdpr.haveAnswer()) {
+            $('#gdpr-question').show()
+        }
+
+        if (pk_gdpr.isAllowedToTrack()) {
+            var script = document.createElement('script');
+            script.src = '/js/gtm_tracking.js';
+            $('body')[0].appendChild(script);
+
+            console.log('gtm js appended')
+        } else {
+            console.log('not allowed to append gtm')
+        }
+    })
+    
+</script>
+
+<script>
+    $(".faqcard .question").off().click(function () {
+        var icon = $(this).find("i");
+
+        if (icon.hasClass('animated')) {
+            icon.removeClass('animated').addClass('animated-reverse');
+        } else if (icon.hasClass('animated-reverse')) {
+            icon.removeClass('animated-reverse').addClass('animated');
+        } else {
+            icon.addClass('animated');
+        }
+    });
+</script>
+
+<!-- <script>
+  window.fcWidget.init({
+    token: "5ea18b71-f1be-4f82-b3ca-fa632269ba46",
+    host: "https://wchat.freshchat.com"
+  });
+</script> -->
+
+<script>
+    $(document).ready(() => {
+        $.ajax({
+           url: "https://panel.patchkit.net/1/account",
+           xhrFields: {
+              withCredentials: true
+           },
+           crossDomain: true
+        }).done((msg) => {
+            $(document).trigger('patchkit:account-info', msg);
+        });
+    });
+    
+</script>
+
+</body>
+</html>
